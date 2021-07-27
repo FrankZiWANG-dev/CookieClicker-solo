@@ -1,38 +1,35 @@
 @media (min-width:568px){
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+   height:100%; 
 }
 
 body {
-    margin-left: 10%;
-    margin-right: 10%;
+   height:100%;
+   margin: 5%;
 
     @font-face {
         font-family: 'friz_quadrataregular';
-        src: url('friz_quadrata_regular-webfont.woff2') format('woff2'),
-            url('friz_quadrata_regular-webfont.woff') format('woff');
+        src: url('/assets/webfontkit/friz_quadrata_regular-webfont.woff2') format('woff2'),
+            url('/assets/webfontkit/friz_quadrata_regular-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
     }
 }
 
 .Grid {
-    display: grid;
-    height:100%;
-    margin-left: 10%;
-    margin-right: 10%;
+   display: grid;
+   height:100%;
 }  
   
 .Title {
 
    background-color: #7b9dfb; 
    grid-row-start: 1;
-   grid-column-start: 3;
+   grid-column-start: 2;
 
    grid-row-end: 2;
-   grid-column-end: 5;
+   grid-column-end: 4;
    
 }
 
@@ -40,10 +37,10 @@ body {
 
    background-color: #7af799; 
    grid-row-start: 2;
-   grid-column-start: 2;
+   grid-column-start: 1;
 
    grid-row-end: 3;
-   grid-column-end: 4;
+   grid-column-end: 3;
    
 }
 
@@ -51,43 +48,27 @@ body {
 
    background-color: #dddbb5; 
    grid-row-start: 3;
-   grid-column-start: 2;
+   grid-column-start: 1;
 
    grid-row-end: 5;
-   grid-column-end: 4;
+   grid-column-end: 3;
    
 }
 
 #clicker {
-    background-color: #232321;
-    box-shadow: 0 0 8px #232321 inset;
-    background-image: url("https://github.com/FrankZiWANG-dev/CookieClicker-solo/blob/main/assets/images/ClickerImage.jpeg?raw=true");
-    background-size: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 70%;
     border-radius: 50%;
 
-    &:hover{
-    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
-    transform: scale(1.03);
-    }
-
-    &:active {
-    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
-    transform: scale(.98);
-    }
+   
 }
 
 .Multiplier{
 
    background-color: #7b7be8; 
    grid-row-start: 2;
-   grid-column-start: 4;
+   grid-column-start: 3;
 
    grid-row-end: 3;
-   grid-column-end: 6;
+   grid-column-end: 5;
    
 }
 
@@ -95,10 +76,10 @@ body {
 
    background-color: #5f7f97; 
    grid-row-start: 3;
-   grid-column-start: 4;
+   grid-column-start: 3;
 
    grid-row-end: 4;
-   grid-column-end: 6;
+   grid-column-end: 5;
    
 }
 
@@ -106,10 +87,10 @@ body {
 
    background-color: #8bdb7f; 
    grid-row-start: 4;
-   grid-column-start: 4;
+   grid-column-start: 3;
 
    grid-row-end: 5;
-   grid-column-end: 6;
+   grid-column-end: 5;
    
 }
 
@@ -117,10 +98,10 @@ body {
 
    background-color: #76897d; 
    grid-row-start: 1;
-   grid-column-start: 2;
+   grid-column-start: 1;
 
    grid-row-end: 2;
-   grid-column-end: 3;
+   grid-column-end: 2;
    
 }
 
@@ -128,10 +109,10 @@ body {
 
    background-color: #e6a88b; 
    grid-row-start: 1;
-   grid-column-start: 5;
+   grid-column-start: 4;
 
    grid-row-end: 2;
-   grid-column-end: 6;
+   grid-column-end: 5;
    
 }
 

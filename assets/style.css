@@ -1,114 +1,98 @@
 @media (min-width: 568px) {
   main {
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 100%;
   }
   body {
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 100%;
+    margin: 5%;
+  }
+  @font-face {
+    body {
+      font-family: 'friz_quadrataregular';
+      src: url("/assets/webfontkit/friz_quadrata_regular-webfont.woff2") format("woff2"), url("/assets/webfontkit/friz_quadrata_regular-webfont.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
   }
   .Grid {
     display: -ms-grid;
     display: grid;
     height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   .Title {
     background-color: #7b9dfb;
     -ms-grid-row: 1;
         grid-row-start: 1;
-    -ms-grid-column: 3;
-        grid-column-start: 3;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
     grid-row-end: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
   }
   .Score {
     background-color: #7af799;
     -ms-grid-row: 2;
         grid-row-start: 2;
-    -ms-grid-column: 2;
-        grid-column-start: 2;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
     grid-row-end: 3;
-    grid-column-end: 4;
+    grid-column-end: 3;
   }
   .Clicker {
     background-color: #dddbb5;
     -ms-grid-row: 3;
         grid-row-start: 3;
-    -ms-grid-column: 2;
-        grid-column-start: 2;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
     grid-row-end: 5;
-    grid-column-end: 4;
+    grid-column-end: 3;
   }
   #clicker {
-    background-color: #232321;
-    -webkit-box-shadow: 0 0 8px #232321 inset;
-            box-shadow: 0 0 8px #232321 inset;
-    background-image: url("https://github.com/FrankZiWANG-dev/CookieClicker-solo/blob/main/assets/images/ClickerImage.jpeg?raw=true");
-    background-size: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 70%;
     border-radius: 50%;
-  }
-  #clicker #clicker:hover {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
-  }
-  #clicker #clicker:active {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
   }
   .Multiplier {
     background-color: #7b7be8;
     -ms-grid-row: 2;
         grid-row-start: 2;
-    -ms-grid-column: 4;
-        grid-column-start: 4;
+    -ms-grid-column: 3;
+        grid-column-start: 3;
     grid-row-end: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
   .Boost {
     background-color: #5f7f97;
     -ms-grid-row: 3;
         grid-row-start: 3;
-    -ms-grid-column: 4;
-        grid-column-start: 4;
+    -ms-grid-column: 3;
+        grid-column-start: 3;
     grid-row-end: 4;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
   .Autoclick {
     background-color: #8bdb7f;
     -ms-grid-row: 4;
         grid-row-start: 4;
-    -ms-grid-column: 4;
-        grid-column-start: 4;
+    -ms-grid-column: 3;
+        grid-column-start: 3;
     grid-row-end: 5;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
   .Save {
     background-color: #76897d;
     -ms-grid-row: 1;
         grid-row-start: 1;
-    -ms-grid-column: 2;
-        grid-column-start: 2;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
     grid-row-end: 2;
-    grid-column-end: 3;
+    grid-column-end: 2;
   }
   .Contact {
     background-color: #e6a88b;
     -ms-grid-row: 1;
         grid-row-start: 1;
-    -ms-grid-column: 5;
-        grid-column-start: 5;
+    -ms-grid-column: 4;
+        grid-column-start: 4;
     grid-row-end: 2;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
 }
 /*# sourceMappingURL=style.css.map */
