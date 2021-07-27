@@ -1,0 +1,108 @@
+@media (orientation: landscape){
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Grid {
+    display: grid;
+    height:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}  
+  
+.Title {
+
+   background-color: #7b9dfb; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 5;
+   
+}
+
+.Score {
+
+   background-color: #7af799; 
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+
+.Clicker {
+
+   background-color: #dddbb5; 
+   grid-row-start: 3;
+   grid-column-start: 2;
+
+   grid-row-end: 5;
+   grid-column-end: 4;
+   
+}
+
+.Multiplier{
+
+   background-color: #7b7be8; 
+   grid-row-start: 2;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 6;
+   
+}
+
+.Boost {
+
+   background-color: #5f7f97; 
+   grid-row-start: 3;
+   grid-column-start: 4;
+
+   grid-row-end: 4;
+   grid-column-end: 6;
+   
+}
+
+.Autoclick {
+
+   background-color: #8bdb7f; 
+   grid-row-start: 4;
+   grid-column-start: 4;
+
+   grid-row-end: 5;
+   grid-column-end: 6;
+   
+}
+
+.Save{
+
+   background-color: #76897d; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+
+.Contact {
+
+   background-color: #e6a88b; 
+   grid-row-start: 1;
+   grid-column-start: 5;
+
+   grid-row-end: 2;
+   grid-column-end: 6;
+   
+}
+
+}
