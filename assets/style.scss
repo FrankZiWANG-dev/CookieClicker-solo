@@ -1,4 +1,4 @@
-@media (orientation: landscape){
+@media (min-width:568px){
 
 main {
     margin-left: 10%;
@@ -8,6 +8,14 @@ main {
 body {
     margin-left: 10%;
     margin-right: 10%;
+
+    @font-face {
+        font-family: 'friz_quadrataregular';
+        src: url('friz_quadrata_regular-webfont.woff2') format('woff2'),
+            url('friz_quadrata_regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 }
 
 .Grid {
@@ -48,6 +56,28 @@ body {
    grid-row-end: 5;
    grid-column-end: 4;
    
+}
+
+#clicker {
+    background-color: #232321;
+    box-shadow: 0 0 8px #232321 inset;
+    background-image: url("https://github.com/FrankZiWANG-dev/CookieClicker-solo/blob/main/assets/images/ClickerImage.jpeg?raw=true");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 70%;
+    border-radius: 50%;
+
+    &:hover{
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.03);
+    }
+
+    &:active {
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
+    }
 }
 
 .Multiplier{

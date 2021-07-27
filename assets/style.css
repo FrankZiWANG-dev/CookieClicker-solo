@@ -1,4 +1,4 @@
-@media (orientation: landscape) {
+@media (min-width: 568px) {
   main {
     margin-left: 10%;
     margin-right: 10%;
@@ -40,6 +40,30 @@
         grid-column-start: 2;
     grid-row-end: 5;
     grid-column-end: 4;
+  }
+  #clicker {
+    background-color: #232321;
+    -webkit-box-shadow: 0 0 8px #232321 inset;
+            box-shadow: 0 0 8px #232321 inset;
+    background-image: url("https://github.com/FrankZiWANG-dev/CookieClicker-solo/blob/main/assets/images/ClickerImage.jpeg?raw=true");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  #clicker #clicker:hover {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+  #clicker #clicker:active {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
   }
   .Multiplier {
     background-color: #7b7be8;
